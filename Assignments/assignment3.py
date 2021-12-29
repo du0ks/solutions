@@ -1,0 +1,8 @@
+n=int(input("Input rods: "))
+print("Your input is: "+str(n))
+print("Conversions")
+print("Meters: "+str(n*5.0292))
+print("Feet: "+str(n*16.5))
+print("Miles: "+str((n*5.0292)/1609.34))
+print("Furlongs: "+str(n/40))
+print("Minutes to walk "+str(n)+" rods: "+str(((n*5.0292)/1609.34)*600/31))
